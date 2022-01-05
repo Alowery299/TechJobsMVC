@@ -26,7 +26,10 @@
 
     <hr />
     
-    
+    @if (ViewBag.jobs != null)
+    {
+
+
         <table>
             @foreach (var job in ViewBag.jobs)
             {
@@ -42,8 +45,7 @@
                 </tr>
             }
         </table>
-    
-
+   }
     @{
         //TODO #4: Loop over the search results to display all job fields.
     }
