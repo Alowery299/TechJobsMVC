@@ -18,10 +18,10 @@ namespace TechJobsMVC.Controllers
         }
 
 
-        //public IActionResult ()
+        //public IActionResult Results(string searchType, string searchTerm)
         //{
-        //    ViewBag.searchList = 
-        //}
+        //    
+        //}    return View()
 
         // TODO #3: Create an action method to process a search request and render the updated search view. 
     }
