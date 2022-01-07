@@ -57,6 +57,11 @@ namespace TechJobsMVC.Data
             return jobs;
         }
 
+        //internal static void FindByColumnAndValue()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
         static public string GetFieldValue(Job job, string fieldName)
         {
             string theValue;
