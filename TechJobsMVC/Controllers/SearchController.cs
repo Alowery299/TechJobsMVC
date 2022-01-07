@@ -20,10 +20,11 @@ namespace TechJobsMVC.Controllers
         }
         // TODO #3: Create an action method to process a search request and render the updated search view. 
         [HttpPost]
+        [Route("/search/results")]
         public IActionResult Results(string searchType, string searchTerm)
         {
            
-            if (searchTerm !=null||searchTerm != string.Empty)
+            if (searchTerm == null||searchTerm == string.Empty)
             {
                ViewBag.jobs=JobData.FindAll();
             }
